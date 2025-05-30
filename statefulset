@@ -21,7 +21,7 @@ spec:
     matchLabels:
       app: nginx
   serviceName: "nginx"
-  replicas: 3                # Changed replicas to 3
+  replicas: 4                # Changed replicas to 3
   template:
     metadata:
       labels:
